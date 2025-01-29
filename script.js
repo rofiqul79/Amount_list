@@ -18,18 +18,28 @@ document.getElementById('studentForm').addEventListener('submit', function(e) {
     return;
   }
 
-  // Save student data to Local Storage
-  const student = { roll, amount };
-  const students = JSON.parse(localStorage.getItem('students')) || [];
-  students.push(student);
-  localStorage.setItem('students', JSON.stringify(students));
+  // Ask for admin password
+  const password = prompt('Enter the admin password to add this entry:');
 
-  // Add student to the table
-  addStudentToTable(student);
+  // Replace 'your-password' with your desired password
+  if (password === 'A@s#d?f!>79') {
+    // Save student data to Local Storage
+    const student = { roll, amount };
+    const students = JSON.parse(localStorage.getItem('students')) || [];
+    students.push(student);
+    localStorage.setItem('students', JSON.stringify(students));
 
-  // Clear the form
-  document.getElementById('roll').value = '';
-  document.getElementById('amount').value = '';
+    // Add student to the table
+    addStudentToTable(student);
+
+    // Clear the form
+    document.getElementById('roll').value = '';
+    document.getElementById('amount').value = '';
+
+    alert('Entry successfully added!');
+  } else {
+    alert('Incorrect password. You are not authorized to add this entry.');
+  }
 });
 
 // Function to add student to the table
