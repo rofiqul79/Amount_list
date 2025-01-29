@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amount List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>'FRESHERS' WELCOME CEREMONY</h3>
+        <form id="studentForm">
+            <label for="roll"></label>
+            <input type="number" id="roll" name="roll" placeholder="Enter roll number" required>
+
+            <label for="amount"></label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <button type="submit">Add to List</button>
+        </form>
+
+        <h3>Student List<br>3/1/CST-A</h3>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Roll No:</th>
+                    <th>Amount (Tk)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Students data will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
