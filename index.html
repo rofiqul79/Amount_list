@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" media="all" />
+  <title>website</title>
+</head>
+<body onclick="closePopup()" id="refresh">
+  <nav class="navbar">
+    <img class="navimg" srcset="navlogo.jpg" src="navlogo.jpg" alt="navlogo.jpg">
+    <h1 class="logo"><span class="logoo">o</span>fiqul</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div class="bar top-bar"></div>
+      <div class="bar middle-bar"></div>
+      <div class="bar bottom-bar"></div>
+    </div>
+  </nav>
+  <div class="sidebar" id="sidebar">
+    <ul class="menu">
+      <li><a onclick="toggleMenu()" href="#refresh">HOME</a></li>
+      <li><a onclick="toggleMenu()" href="#sub">TOTAL</a></li>
+      <li><a onclick="toggleMenu()" href="#list">LIST</a></li>
+      <li><a onclick="toggleMenu()" href="#comment">FEEDBACK</a></li>
+      <li><a onclick="toggleMenu()" href="#home">DEVELOPER</a></li>
+      <li><a onclick="toggleMenu()" href="#privacy">PRIVACY</a></li>
+    </ul>
+  </div>
+  <main>
+    <div>
+      <img class="cover" sizes="cover.jpg" srcset="cover.jpg" src="cover.jpg" alt="cover.jpg">
+    </div>
+    <header class="header">
+      <img id="home" class="profile" sizes="pro.jpg" srcset="pro.jpg" src="pro.jpg" alt="pro.jpg">
+      <h2>Md. Rofiqul Islam</h2>
+      <p>3/1/CST-A (MPI)<br>
+      <br>°_জীবনের যাত্রা হচ্ছে,_★★
+      <br>°_আযান থেকে নামায পর্যন্ত!_★★
+      <br>°_কেননা, পৃথিবীতে আসার সময় _★★
+      <br>°_আযান হয়েছিলো, আর_★★★★★
+      <br>°_যাওয়ার সময় নামায হবে!_★★★</p>
+      <div class="admininfo" id>
+        <a href="https://www.facebook.com/ROFIQUL.mpi" target="blank"><img srcset="icons8-facebook.gif" src="icons8-facebook.gif" alt="icons8-facebook.gif"></a>
+        <a style="margin-left: 5px" href="https://wa.me/8801783983569?text=Hello,%20I%20need%20help!" target="_blank"><img srcset="icons8-whatsapp.gif" src="icons8-whatsapp.gif" alt="icons8-whatsapp.gif"></a>
+        <a style="margin-left: 5px" href="https://m.me/ROFIQUL.mpi?text=Hello%2C%20I%20need%20help%20with%20this%20website." target="blank"><img srcset="icons8-messenger.gif" src="icons8-messenger.gif" alt="icons8-messenger.gif"></a>
+      </div><br>
+    </header>
+    <div class="lang" id="list">
+      <h3 id="sub">FRESHERS WELCOME CEREMONY</h3>
+      <div class="search-container">
+        <input type="number" class="search" placeholder="Search by roll" required/>
+        <button class="search-btn" onclick="searchRoll()">
+          GO
+        </button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Total Donor</th>
+            <th>Total Amount (tk)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+        </tbody>
+      </table>
+      <h3>AMOUNT LIST<br>3/1/CST-A</h3>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867657</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867660</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867662</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867665</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867668</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867672</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867678</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867685</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+           ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867686</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867691</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867693</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867699</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867701</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867703</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867705</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867709</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867710</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867714</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867715</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳100
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867718</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">867719</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">672575</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="main-btn">
+          <span class="btn-text">215733</span>
+        </button>
+        <div class="details">
+          <span class="arrow">▼</span>
+          <p class="text">
+            ৳150
+          </p>
+        </div>
+      </div>
+      
+      
+    </div>
+  </main>
+  <!-- Feedback Form Section -->
+  <section class="feedback-section" id="comment">
+    <img class="feedimg" sizes="feedback.jpg" srcset="feedback.jpg" src="feedback.jpg" alt="feedback.jpg">
+    <form id="feedback-form" method="POST" action="send_feedback.php">
+      <textarea name="feedback" placeholder="Write your feedback here..." required></textarea>
+      <button type="submit" class="send-btn">Send Feedback</button>
+    </form>
+  </section>
+
+<!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <p id="popup-message"></p>
+      <button class="close-btn" onclick="closePopup()">OK
+      </button>
+    </div>
+  </div>
+  <footer class="footer" id="privacy">
+    <p>Important Website link</p>
+    <li><a href="https://rofiqul79.github.io">rofiqul bloogspot</a></li>
+    <li><a href="https://mpi.polytech.gov.bd/">Mymensingh Polytechnic Institute</a></li>
+    <li><a href="https://bteb.gov.bd/">Bangladesh Technical Education Board</a></li>
+    <p>&copy; 2025 Md. Rofiqul Islam.<br>All rights reserved.</p>
+  </footer>
+</body>
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
